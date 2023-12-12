@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
-}
+/* Calendar.css (or your preferred CSS file) */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Stylish&family=Sunflower:wght@500&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
+  background-color: #f6f6f6;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.App {
+
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Stylish', serif;
+  font-family: 'Sunflower', sans-serif;
+}
+
+
+.calendar-count {
+  padding-left: 50px;
+}
+
+
+.calendar-table td a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.resetBtn {
+  background-color: aqua;
+  width: 150px;
+  height: 45px;
+}
+
+/*ColorChange*/
+
+
+button {
+  width: 150px;
+  height: 150px;
+  border: none;
+  font-family: 'Sunflower';
+  font-size: 18px;
+}
+
+.AskDay {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.BtnPink {
+  background-color: pink;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.BtnDefault {
+  background-color: white;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.BtnGreen {
+  background-color: green;
+  color: white;
+}
+
+.BtnNavy {
+  background-color: navy;
+  color: white;
+}
+
+.BtnRed {
+  background-color: red;
+  color: white;
+}
+
+.BtnPurple {
+  background-color: purple;
+  color: white;
+}
+
+.BtnGray {
+  background-color: gray;
+  color: white;
 }
