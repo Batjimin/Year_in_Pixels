@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Year_in_Pixels/static/css/main.62c17603.css",
+    "main.js": "/Year_in_Pixels/static/js/main.155ce64e.js",
+    "index.html": "/Year_in_Pixels/index.html",
+    "main.62c17603.css.map": "/Year_in_Pixels/static/css/main.62c17603.css.map",
+    "main.155ce64e.js.map": "/Year_in_Pixels/static/js/main.155ce64e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62c17603.css",
+    "static/js/main.155ce64e.js"
+  ]
+}
